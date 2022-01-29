@@ -24,14 +24,13 @@ description: >- # this means to ignore newlines until "baseurl:"
   Welcome to the Official Blog of Sanket Verma. I'd like to write about
   Technology, Open Source Software & Communities, Data Science, Movies,
   Sports and Games.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/blog" # the subpath of your site, e.g. /blog
+url: "https://sanketverma.me/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: msankeys963
 github_username:  msankeys963
 
 # Build settings
-# Removed minima theme as it is now a regular theme
-#theme: minima
+theme: minima
 plugins:
   - jekyll-feed
 
